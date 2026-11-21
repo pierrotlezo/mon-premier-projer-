@@ -1,0 +1,7 @@
+# Dépendances installées par npm (on ne les envoie pas sur GitHub)
+node_modules/
+# Version compilée de l'application
+dist/
+# Fichiers système / éditeur
+.DS_Store
+*.log
