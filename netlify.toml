@@ -1,0 +1,9 @@
+# Configuration de l'hébergement Netlify
+# L'application se trouve dans le sous-dossier "suivi-clients".
+[build]
+  base = "suivi-clients"      # dossier de l'application
+  command = "npm run build"   # commande qui fabrique la version en ligne
+  publish = "dist"            # dossier produit par la commande (relatif à "base")
+
+[build.environment]
+  NODE_VERSION = "22"
